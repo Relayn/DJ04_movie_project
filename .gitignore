@@ -1,3 +1,35 @@
-# created by virtualenv automatically
-.venv/Lib
+# Byte-compiled / оптимизированные / временные файлы
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Виртуальное окружение (на Windows чаще всего так)
+.venv/
+env/
+venv/
+
+# Файлы настроек IDE (PyCharm, VSCode и т.д.)
+.idea/
+.vscode/
+
+# Базы данных
+*.sqlite3
+
+# Миграции, созданные случайно
+*.log
+*.pot
+*.pyc
+
+# Медиа и статика, если генерируется в runtime
+/static/
+media/
+
+# Файлы настроек ОС
+.DS_Store
+Thumbs.db
+
+# Файлы окружения (если используешь .env)
+.env
+
+# Секретные ключи, которые ты мог бы положить в отдельные файлы
+*.secret
